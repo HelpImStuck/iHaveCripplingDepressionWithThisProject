@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AnchorPaneMenu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="560.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectosbb.menu">
+    <children>
+        <AnchorPane fx:id="AnchorPaneMenu2" layoutY="97.0" prefHeight="483.0" prefWidth="560.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <Label fx:id="TextFieldMenu2" layoutX="215.0" layoutY="18.0" prefHeight="41.0" prefWidth="117.0" style="-fx-background-color: #fafafa;" text="Welcome" textFill="#2e3348">
+               <font>
+                  <Font name="Ebrima Bold" size="26.0" />
+               </font>
+            </Label>
+            <DatePicker fx:id="MenuDate1" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="109.0" />
+            <ScrollBar layoutY="470.0" prefHeight="14.0" prefWidth="560.0" />
+            <ScrollBar fx:id="MenuScroll1" layoutX="546.0" layoutY="-1.0" orientation="VERTICAL" prefHeight="471.0" prefWidth="14.0" />
+            <RadioButton fx:id="MenuRadio3" layoutX="191.0" layoutY="21.0" mnemonicParsing="false" />
+            <RadioButton fx:id="MenuRadio1" layoutX="149.0" layoutY="21.0" mnemonicParsing="false" />
+            <RadioButton fx:id="MenuRadio2" layoutX="170.0" layoutY="21.0" mnemonicParsing="false" />
+            <ToggleButton fx:id="MenuToggle1" layoutX="128.0" layoutY="14.0" mnemonicParsing="false" />
+            <HBox fx:id="MenuScroll2" layoutX="14.0" layoutY="392.0" prefHeight="92.0" prefWidth="532.0">
+               <children>
+                  <Button fx:id="MenuBoxButton1" alignment="CENTER" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #F39C63;" text="Add inhabitant">
+                     <opaqueInsets>
+                        <Insets left="15.0" right="15.0" />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="23.0" right="15.0" top="20.0" />
+                     </HBox.margin></Button>
+                  <Button fx:id="MenuBoxButton2" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #F39C63;" text="Add inhabitant ( flat )">
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="10.0" right="15.0" top="20.0" />
+                     </HBox.margin></Button>
+                  <Button fx:id="MenuBoxButton3" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #F39C63;" text="Delete inhabitant ( flat )">
+                     <opaqueInsets>
+                        <Insets left="15.0" right="15.0" />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="10.0" right="15.0" top="20.0" />
+                     </HBox.margin></Button>
+                  <Button fx:id="MenuBoxButton4" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #F39C63;" text="List inhabitant">
+                     <opaqueInsets>
+                        <Insets left="15.0" right="15.0" />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="10.0" right="10.0" top="20.0" />
+                     </HBox.margin></Button>
+               </children>
+            </HBox>
+            <HBox layoutY="322.0" prefHeight="92.0" prefWidth="546.0">
+               <children>
+                  <Button fx:id="MenuBoxButton5" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #F39C63;" text="List debtors" textAlignment="CENTER">
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="38.0" right="15.0" top="20.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="MenuBoxButton6" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #F39C63;" text="List registration">
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="10.0" right="15.0" top="20.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="MenuBoxButton7" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #F39C63;" text="List by age ">
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="10.0" right="15.0" top="20.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="MenuBoxButton8" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #F39C63;" text="List by floor">
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="10.0" right="10.0" top="20.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox layoutY="251.0" prefHeight="100.0" prefWidth="546.0">
+               <children>
+                  <Button fx:id="MenuBoxButton9" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #F39C63;" text="Exit">
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="38.0" right="15.0" top="20.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="MenuBoxButton10" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #F39C63;" text="Settings">
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="10.0" right="15.0" top="20.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="MenuBoxButton11" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #F39C63;" text="Add balance ">
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="10.0" right="15.0" top="20.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="MenuBoxButton12" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #F39C63;" text="Show House">
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="10.0" right="10.0" top="20.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <Label fx:id="TextFieldMenu3" layoutX="205.0" layoutY="194.0" prefHeight="41.0" prefWidth="152.0" style="-fx-background-color: #fafafa;" text="Main menu " textFill="#2e3348">
+               <font>
+                  <Font name="Ebrima Bold" size="26.0" />
+               </font>
+            </Label>
+         </children>
+        </AnchorPane>
+        <Label fx:id="TextFieldMenu1" layoutX="144.0" layoutY="24.0" prefHeight="41.0" prefWidth="288.0" text="OSBB-Controller v.2.01" textFill="WHITE">
+            <font>
+                <Font name="Ebrima Bold" size="26.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
